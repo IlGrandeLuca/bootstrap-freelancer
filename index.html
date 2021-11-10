@@ -19,7 +19,7 @@
     <!-- Header -->
     <header class="container-fluid bg-info">
         <!-- Presentation -->
-        <div class="row w-auto text-center justify-content-center">
+        <div class="row w-auto text-center justify-content-center gx-0">
             <div class="col-9 col-sm-3">
                 <img src="img/undraw_profile_pic_ic5t.svg" alt="Profile picture" class="img-fluid pt-5">
             </div>
@@ -132,7 +132,38 @@
         </div>
     </div>
     <!-- Form -->
-    <div class="row" id="Contact-me"></div>
+    <div class="container-fluid w-100 bg-white text-center" id="Contact-me">
+        <h2 class="text-uppercase pt-5">Contact me</h2>
+            <form action="#" class="row p-1 gy-2 justify-content-center">
+                <!-- First name-->
+                <div class="col-12 col-sm-5 text-start">
+                    <label class="form-label" for="first-name">First name</label>
+                    <input class="form-control" type="text" placeholder="Enter your first name..." id="first-name" required>
+                </div>
+                <!-- Last name-->
+                <div class="col-12 col-sm-5 text-start">
+                    <label class="form-label" for="last-name">Last name</label>
+                    <input class="form-control" type="text" placeholder="Enter your last name..." id="last-name" required>
+                </div>
+                <!-- Email -->
+                <div class="col-12 col-sm-5 text-start">
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-control" type="email" placeholder="Name@example.com" id="email" required>
+                </div>
+                <!-- Phone number -->
+                <div class="col-12 col-sm-5 text-start">
+                    <label class="form-label" for="phone-n">Phone number</label>
+                    <input class="form-control" type="tel" placeholder="(123)&nbsp;456-7890" id="phone-n" required>
+                </div>
+                <div class="col-10 text-start">
+                    <label class="form-label" for="text-a">Message</label>
+                    <textarea class="form-control" placeholder="Enter your message here..." rows="5" id="text-a"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-info"><i class="bi bi-send"></i>&nbsp;Send</button>
+                </div>
+            </form>
+    </div>
     <!-- Footer -->
     <footer></footer>
 </body>
