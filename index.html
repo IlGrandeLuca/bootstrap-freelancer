@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container-fluid">
             <span class="navbar-brand text-info ps-5"><i class="bi bi-code-square"></i>&nbsp;Portfolio</span>
             <a href="#Contact-me" class="text-uppercase link-info pe-5">Contact me</a>
@@ -155,16 +155,36 @@
                     <label class="form-label" for="phone-n">Phone number</label>
                     <input class="form-control" type="tel" placeholder="(123)&nbsp;456-7890" id="phone-n" required>
                 </div>
-                <div class="col-10 text-start">
+                <div class="col-12 col-sm-10 text-start">
                     <label class="form-label" for="text-a">Message</label>
                     <textarea class="form-control" placeholder="Enter your message here..." rows="5" id="text-a"></textarea>
                 </div>
                 <div class="col-12">
-                    <button type="submit" class="btn btn-info"><i class="bi bi-send"></i>&nbsp;Send</button>
+                    <button type="submit" class="btn btn-info mb-5"><i class="bi bi-send"></i>&nbsp;Send</button>
                 </div>
             </form>
     </div>
     <!-- Footer -->
-    <footer></footer>
+    <footer class="container-fluid bg-dark text-center text-secondary">
+        <div class="row text-center pt-3 justify-content-center">
+            <div class="col-12 col-sm-6 my-4">
+                <h3 class="text-uppercase h4">Location</h3>
+                <p class="pt-3">
+                    2215 John Daniel Drive<br>
+                    Clark, MO 65243
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 my-4">
+                <h3 class="text-uppercase h4">Around the web</h3>
+                <button type="button" class="btn btn-outline-secondary mx-1 my-3"><i class="bi bi-facebook"></i></button>
+                <button type="button" class="btn btn-outline-secondary mx-1 my-3"><i class="bi bi-twitter"></i></button>
+                <button type="button" class="btn btn-outline-secondary mx-1 my-3"><i class="bi bi-linkedin"></i></button>
+                <button type="button" class="btn btn-outline-secondary mx-1 my-3"><i class="bi bi-instagram"></i></button>
+            </div>
+            <div class="col-12 p-3 m-1">
+                <span>Copyright &copy; Il Grande Luca 2021</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
